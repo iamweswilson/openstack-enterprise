@@ -4158,7 +4158,7 @@ i.fa-arrow-circle-down {
 
 @media (max-width: 767px) {
   .marketplace-row h3 {
-    text-align: left; } }
+    text-align: center; } }
 
 .marketplace-row p {
   color: #4b5863;
@@ -4171,7 +4171,8 @@ i.fa-arrow-circle-down {
 @media (max-width: 767px) {
   .marketplace-row p {
     border-left: 0;
-    padding-left: 0; } }
+    padding-left: 0;
+    text-align: center; } }
 
 a.vendor-link {
   font-weight: 400;
@@ -4191,7 +4192,9 @@ a.marketplace-btn {
 @media (max-width: 767px) {
   a.marketplace-btn {
     padding: 15px 70px 15px 40px;
-    margin-top: 10px; } }
+    margin: 20px auto 0;
+    max-width: 400px;
+    float: none; } }
 
 a.marketplace-btn:hover {
   text-decoration: none;
@@ -4593,10 +4596,15 @@ li.hosted-cloud {
   padding: 20px 22% 20px 8%;
   font-size: 20px;
   text-align: center;
-  background: #284d68 url('/images/blue-arrow.png') 90% 50% no-repeat; }
+  background: #284d68 url('/images/blue-arrow.png') 90% 50% no-repeat;
+  float: right; }
 
 .marketplace-btn.blue:hover {
   background: #132F45 url('/images/blue-arrow-hover.png') 90% 50% no-repeat; }
+
+@media (max-width: 767px) {
+  .marketplace-btn.blue {
+    max-width: 100%; } }
 
 .events-wrapper {
   padding: 25px 0 15px;
@@ -4860,6 +4868,14 @@ a.thumbnail {
   background: #2A4E68 url('/images/blue-arrow.png') 90% 50% no-repeat; }
   .hands-on-row a.marketplace-btn:hover {
     background: #0C1722 url('/images/blue-arrow-hover.png') 90% 50% no-repeat; }
+
+@media (max-width: 767px) {
+  .hands-on-row a.marketplace-btn {
+    float: none;
+    max-width: 400px;
+    margin: 0 auto 30px; }
+  .hands-on-row p {
+    border-left: none; } }
 
 .lb-container img {
   max-width: 100%; }

@@ -200,7 +200,7 @@ i.fa-arrow-circle-down {
 }
 @media (max-width: 767px) {
     .marketplace-row h3 {
-        text-align: left;
+        text-align: center;
     }
 }
 .marketplace-row p {
@@ -215,6 +215,7 @@ i.fa-arrow-circle-down {
     .marketplace-row p {
         border-left: 0;
         padding-left: 0;
+        text-align: center;
     }
 }
 a.vendor-link {
@@ -235,7 +236,9 @@ a.marketplace-btn {
 @media (max-width: 767px) {
     a.marketplace-btn {
         padding: 15px 70px 15px 40px;
-        margin-top: 10px;
+        margin: 20px auto 0;
+        max-width: 400px;
+        float: none;
     }
 }
 a.marketplace-btn:hover {
@@ -660,9 +663,15 @@ li.hosted-cloud {
     font-size: 20px;
     text-align: center;
     background: #284d68 url('#{$assetsPath}/blue-arrow.png') 90% 50% no-repeat;
+    float: right;
 }
 .marketplace-btn.blue:hover {
     background: #132F45 url('#{$assetsPath}/blue-arrow-hover.png') 90% 50% no-repeat;
+}
+@media (max-width: 767px) {
+    .marketplace-btn.blue {
+        max-width: 100%;
+    }
 }
 .events-wrapper {
     padding: 25px 0 15px;
@@ -955,6 +964,18 @@ a.thumbnail {
             background: $darkbluehover url('#{$assetsPath}/blue-arrow-hover.png') 90% 50% no-repeat;
         }
     }
+}
+@media (max-width: 767px) {
+    .hands-on-row {
+        a.marketplace-btn {
+            float: none;
+            max-width: 400px;
+            margin: 0 auto 30px;
+        }
+        p {
+            border-left: none;
+        }
+    } 
 }
 .lb-container {
     img {
