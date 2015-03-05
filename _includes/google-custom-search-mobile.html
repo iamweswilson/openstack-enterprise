@@ -1,0 +1,14 @@
+
+{% if include.enabled == 'false' %}
+
+    <form class="mobile-search-form">
+        <input type="email" class="col-lg-3 col-sm-2 header-search" id="exampleInputEmail1" placeholder="Search OpenStack">
+    </form>
+
+{% else %}                  
+
+	<div id="gcse-mobile">
+		<gcse:search gname="mobile"></gcse:search>
+	</div>
+
+{% endif %}

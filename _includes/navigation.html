@@ -1,0 +1,60 @@
+    <!-- Header Navigation -->
+
+    {% if page.title != 'Home' %}
+        <nav class="navbar navbar-default inner" role="navigation">
+    {% else %}
+        <nav class="navbar navbar-default" role="navigation">
+    {% endif %}
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="brand-wrapper">
+                    <a class="navbar-brand" href="/"></a>
+                </div>
+                <div class="search-icon show"><i class="fa fa-search"></i> Search</div>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <div class="search-container tiny">
+                    {% include google-custom-search.html enabled="true" %}
+                    <i class="fa fa-times close-search"></i>
+                </div>
+                    <ul class="nav navbar-nav navbar-main show">
+                        <li>
+                            {% include google-custom-search-mobile.html enabled="true" %}
+                        </li>
+
+                        {% for section in site.data.navigation %}
+                        <li>
+                            {% if section.subnav %}
+                                <a href="{{ section.link }}" class="drop" id="dropdownMenu{{ section.id }}">{{ section.name }} <i class="fa fa-caret-down"></i></a>
+                                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu{{ section.id }}">
+                                    {% for subnavitem in section.subnav %}
+                                        {% if subnavitem.type == 'divider' %}
+                                            <li role="presentation" class="divider"></li>
+                                        {% else %}
+                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="{{ subnavitem.link }}">{{ subnavitem.name }}</a></li>
+                                        {% endif %}
+                                    {% endfor %}
+                                </ul>
+                            {% else %}
+                                <a href="{{ section.link }}">{{ section.name }}</a>
+                            {% endif %}
+                        </li>
+                        {% endfor %}
+
+                        <li>
+                            <a href="http://openstack.org/Security/login/" class="sign-in-btn">Sign In</a>
+                        </li>
+                    </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>

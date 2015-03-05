@@ -1,0 +1,97 @@
+#
+# YAML file that populates the top menu
+#
+# Each item begins with a dash and needs an id, name, and link.
+# subnav is an optional collection of items that will appear in a pulldown menu
+#
+
+- id: Software
+  name: Software
+  link: /software/
+  subnav:
+    - id: Overview
+      name: Overview
+      link: /software/
+
+    - type: divider
+    - id: Compute
+      name: Compute
+      link: /software/openstack-compute/
+    - id: Storage
+      name: Storage
+      link: /software/openstack-storage/
+    - id: Networking
+      name: Networking
+      link: /software/openstack-networking/
+    - id: Dashboard
+      name: Dashboard
+      link: /software/openstack-dashboard/
+    - id: SharedServices
+      name: Shared Services
+      link: /software/openstack-shared-services/
+
+    - type: divider
+    - id: GetStarted
+      name: Get Started
+      link: //www.openstack.org/software/start/
+
+- id: Users
+  name: Users
+  link: /user-stories/
+  subnav:
+    - name: "Overview"
+      link: "/user-stories/"
+
+    - type: divider
+    - name: Superuser Magazine
+      link: //superuser.openstack.org/
+    - name: "Featured:  Top 10 Automaker"
+      link: http://www.openstack.org/enterprise/auto/  
+
+- id: Community
+  name: Community
+  link: /community/
+  subnav:
+    - name: Welcome! Start Here
+      link: /community/
+    - name: Ask A Technical Question
+      link: //ask.openstack.org/
+    - name: OpenStack Wiki
+      link: //wiki.openstack.org/wiki/Main_Page
+    - name: Community Events
+      link: //www.openstack.org/community/events/
+    - name: Source Code
+      link: //wiki.openstack.org/wiki/Getting_The_Code
+
+    - type: divider
+    - name: Supporting Companies
+      link: //www.openstack.org/foundation/companies/
+    - name: Jobs
+      link: //www.openstack.org/community/jobs/
+
+    - type: divider
+    - name: Join The Community
+      link: //www.openstack.org/join/
+
+- id: Marketplace
+  name: Marketplace
+  link: /marketplace/
+
+- id: Events
+  name: Events
+  link: /events/
+  subnav:
+    - name: "Overview"
+      link: "//www.openstack.org/community/events/"
+    - name: The OpenStack Summit
+      link: //www.openstack.org/summit/openstack-paris-summit-2014/
+    - name: More OpenStack Events
+      link: //www.openstack.org/community/events/
+
+- id: Blog
+  name: Blog
+  link: /blog/
+
+- id: "Docs"
+  name: "Docs"
+  link: /docs/
