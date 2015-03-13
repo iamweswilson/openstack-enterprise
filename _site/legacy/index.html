@@ -275,7 +275,7 @@
                 <div class="col-lg-8 col-sm-8">
                     <div class="intro-message">
                         <h1>Adding Speed &amp; Agility to Legacy Virtualization Infrastructure</h1>
-                        <h3>4 ways to architect OpenStack on VMWare</h3>
+                        <h3>Modernizing VMware Infrastructures with OpenStack Cloud Software</h3>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-4">
@@ -292,7 +292,7 @@
                             <div class="container">
                                 <div class="row">
                                    <div class="col-sm-7 link-back">
-                                       <a href="/">< Back to Enterprise Homepage</a>
+                                       <a href="#">< Back to Enterprise Homepage</a>
                                    </div>
                                     <div class="col-sm-5">
                                         <ul class="list-inline filters">
@@ -372,14 +372,18 @@
                     <h2 class="section-heading"><span class="count">1</span>Multi-Hypervisor Environment</h2>
                     <p class="lead">Running Both vSphere and Alternate Hypervisors</p>
                     <p>
-                        In this scenario, OpenStack is used as the control plane to manage a multi-hypervisor cloud, running both vSphere and alternate hypervisors such as KVM or Xen.  This approach consolidates cloud management while allowing applications to be hosted on the environment best suited for them, maintaining a single point of control and API access.
+                        In this scenario, OpenStack is used as the control plane to manage a multi-hypervisor cloud, running both vSphere and an alternate hypervisor such as KVM or Xen.  This approach offers self-service provisioning of any type of virtual machine and allows applications to be hosted on the environment best suited for them.  The OpenStack control plane allows for a single point of operational control and common API access and dashboard interface.
                     </p>
                     <p>
-                        Intel has been running this architecture with vSphere and OpenStack since 2012, with 1,500 VMs across two datacenters.  With the combined environment “overseen” with OpenStack controllers, they can leverage different hypervisors while keeping operations and user experience consistent. The cloud environment enables the company’s developers to add value to the company with new applications built using the OpenStack APIs. 
+                        With OpenStack controlling ESXi virtual machines, Intel has eliminated an estimated 7/8ths of IT tickets and 190,000 hours of wait time in one year alone.  By year-end 2014, they plan to move another 14,000 ESXi VMs under OpenStack control.  By 2016, 90% of all service requests will be fulfilled instantaneously via self-service. 
                     </p>
                 </div>
                 <div class="col-sm-6">
-
+                    <div class="thumbnails" data-toggle="lightbox">
+                        <a href="/images/legacy/multi-hypervisor.svg" class="thumbnail" data-title="Multi-Hypervisor">
+                            <img class="img-responsive" src="/images/legacy/multi-hypervisor.svg" onerror="this.onerror=null; this.src=img/multi-hypervisor.png" alt="">
+                        </a>
+                    </div>
                 </div>
             </div>
             <!--End Method 1-->
@@ -389,16 +393,16 @@
                     <h2 class="section-heading"><span class="count">2</span>Commercial Distributions</h2>
                     <p class="lead">VMware Technologies Through Commercial OpenStack distributions</p>
                     <p>
-                        These OpenStack distributions from joint OpenStack ecosystem and VMware partnerships are enabled to support the VMware ESXi hypervisor, in addition to others, to easily deploy OpenStack cloud.  Each offers value-added services and support that complement and enhance OpenStack to meet differing enterprise needs.
+                        OpenStack distributions from joint OpenStack ecosystem and VMware partnerships are enabled to support the VMware ESXi hypervisor, in addition to others, to easily deploy OpenStack clouds.  Each offers value-added services and support that complement and enhance OpenStack to meet differing enterprise needs.
                     </p>
                     <p>
-                        Wells Fargo is successfully using VMware technologies in its OpenStack deployment using the Mirantis Fuel distribution.  The company has been leveraging vSphere for customer instances of xxxxx.  With HA and vMotion enabled, Wells Fargo has experienced an extra level of built-in resiliency. 
+                        Wells Fargo is successfully using VMware technologies in its OpenStack deployment using the Mirantis Fuel distribution.  The company is leveraging vSphere for thousands of internal production applications across four datacenters, with three clouds each – Development, Testing and Production.  With HA and vMotion enabled, Wells Fargo has experienced an extra level of built-in resiliency. 
                     </p>
                 </div>
                 <div class="col-sm-6 col-sm-pull-6">
                     <div class="thumbnails" data-toggle="lightbox">
                         <a href="/images/legacy/commercial-distributions.svg" class="thumbnail" data-title="Commercial Distributions">
-                            <img class="img-responsive" src="/images/legacy/commercial-distributions.svg" onerror="this.onerror=null; this.src=img/commercial-distributions.png" alt="OpenStack VMWare Commercial Distributions">
+                            <img class="img-responsive" src="/images/legacy/commercial-distributions.svg" onerror="this.onerror=null; this.src=img/commercial-distributions.png" alt="">
                         </a>
                     </div>
                 </div>
@@ -410,10 +414,10 @@
                     <h2 class="section-heading"><span class="count">3</span>VIO</h2>
                     <p class="lead">VMWare Integrated OpenStack</p>
                     <p>
-                    VMware Integrated OpenStack (VIO) offers VMware users an alternative that combines the benefits of OpenStack with those of VMware in a single stack.  This architecture uses VMware’s Software Defined Datacenter infrastructure products such as ESXi, VSAN, NSX and vCenter.  As of the publication of this paper, it is new – generally available on March 13, 2015.
+                        VMware Integrated OpenStack (VIO) offers VMware users an alternative that combines the benefits of OpenStack with those of VMware in a single stack.  This architecture uses VMware’s Software Defined Datacenter infrastructure products such as ESXi, VSAN, NSX and vCenter. VIO can make it easier for IT to run a production-grade OpenStack deployment on top of their existing VMware infrastructure , gaining new cloud capabilities with the VMware interfaces with which they’re familiar, as well as managed services and support.
                     </p>
                     <p>
-                     VIO can make it easier for IT to run a production-grade OpenStack deployment on top of their existing VMware infrastructure , gaining new cloud capabilities with the VMware interfaces with which they’re familiar, as well as managed services and support.
+                        Adobe Digital Marketing decided to modernize their VMware-based infrastructure for customer-facing applications.  They turned to VMware Integrated OpenStack (VIO) to support the high levels of resiliency required while leveraging their existing VMware administrators and expertise.  Adobe DM extensively tested the beta VIO product and plans to have the system in production by the end of 2014. 
                     </p>
                 </div>
                 <div class="col-sm-6">
@@ -423,7 +427,7 @@
             <!-- End Method 3 -->
             <hr>
             <div class="row">
-                <div class="col-sm-6 col-sm-push-6">
+                <div class="col-sm-12">
                     <h2 class="section-heading"><span class="count">4</span>Multi-region Architecture</h2>
                     <p class="lead">Multi-region VIO and KVM Architecture</p>
                     <p>
@@ -432,9 +436,6 @@
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis euismod sapien, in vulputate leo. Mauris dapibus ultrices felis in euismod. Vivamus fringilla ante ligula, ac vulputate nulla blandit sit amet. Sed tristique congue nulla, et ornare erat efficitur vel. Curabitur a congue mauris. Proin in mi ipsum.
                     </p>
-                </div>
-                <div class="col-sm-6 col-sm-pull-6">
-                    
                 </div>
             </div>
             <!-- End Method 4 -->
@@ -459,11 +460,11 @@
                     <h5>See OpenStack and NSX together in action, right inside your browser with no installation required.</h5>
                 </div>
                 <div class="col-sm-4">
-                    <a href="#" class="marketplace-btn">Try The Hands-on Lab</a>
+                    <a href="http://www.vmware.com/go/openstacklab" class="marketplace-btn">Try The Hands-on Lab</a>
                 </div>
                 <div class="col-sm-8">
                     <p>
-                    You can also learn more about OpenStack and vSphere integration through a hands-on lab by VMware. It provides a remote Windows desktop wttithin an OpenStack on vSphere cloud lab within 30 seconds with step-by-step instructions to learn about OpenStack on vSphere (Nova + Cinder) and NSX (Neutron). To learn more, go to: http://www.vmware.com/go/openstacklab.
+                    You can also learn more about OpenStack and vSphere integration through a hands-on lab by VMware. It provides a remote Windows desktop wttithin an OpenStack on vSphere cloud lab within 30 seconds with step-by-step instructions to learn about OpenStack on vSphere (Nova + Cinder) and NSX (Neutron). To learn more, go to: <a href="http://www.vmware.com/go/openstacklab">http://www.vmware.com/go/openstacklab</a>.
                     </p>
                 </div>
             </div>
@@ -486,7 +487,7 @@
                             Read the complete white paper that the differences between legacy infrastructures and cloud computing, as well as, explains the four ways to architect VMWare using OpenStack to create next-generation, large-scale environments.
                         </p>
                         <p class="file-info">
-                            <a href="#" data-toggle="modal" data-target="#downloadModal"LegacyIntegrationWhitePaper.PDF | 1.4MB</a>
+                            <a href="#" data-toggle="modal" data-target="#downloadModal">LegacyIntegrationWhitePaper.PDF | 1.4MB</a>
                         </p>
                         <a href="#" class="btn" data-toggle="modal" data-target="#downloadModal"><i class="fa fa-arrow-circle-down"></i> Download</a>
                     </div>
@@ -532,7 +533,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-sm-4">
-                    <a href="#" data-toggle="modal" data-target="#VideoModalDisney">
+                    <a href="#" data-toggle="modal" data-target="#VideoModalVMWare1">
                     <div class="video-wrapper">
                         <div class="play-button">
                             <img src="/images/play-button.png">
@@ -542,10 +543,28 @@
                                 <img src="/images/play-button.png">
                             </div>
                             <p>
-                                Chris Launey of Walt Disney speaks with Jonathan about how he is using OpenStack to help empower technology in the workplace. 
+                                Dan Wendlandt of VMware presents VMware + OpenStack: Accelerating OpenStack in the Enterprise at Paris Summit.
                             </p>
                         </div>
-                        <img class="video-image" src="/images/video-disney.jpg" alt="Disney Talking About OpenStack">
+                        <img class="video-image" src="/images/legacy/video-vmware1.jpg" alt="Disney Talking About OpenStack">
+                    </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-4">
+                    <a href="#" data-toggle="modal" data-target="#VideoModalVMWare">
+                    <div class="video-wrapper">
+                        <div class="play-button">
+                            <img src="/images/play-button-dark.png">
+                        </div>
+                        <div class="video-overlay">
+                            <div class="small-play-button">
+                                <img src="/images/play-button.png">
+                            </div>
+                            <p>
+                                Dan Florea of VMWare discusses how OpenStack and VMWare work together.
+                            </p>
+                        </div>
+                        <img class="video-image" src="/images/legacy/video-vmware.jpg" alt="VmWare Working with OpenStack">
                     </div>
                     </a>
                 </div>
@@ -564,24 +583,6 @@
                             </p>
                         </div>
                         <img class="video-image" src="/images/video-wellsfargo.jpg" alt="Wells Fargo Talking About OpenStack">
-                    </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-4">
-                    <a href="#" data-toggle="modal" data-target="#VideoModalBloomberg">
-                    <div class="video-wrapper">
-                        <div class="play-button">
-                            <img src="/images/play-button.png">
-                        </div>
-                        <div class="video-overlay">
-                            <div class="small-play-button">
-                                <img src="/images/play-button.png">
-                            </div>
-                            <p>
-                                We review how Bloomberg designed our stack to be fully active-active highly available and share some of our experiences operating our clouds.
-                            </p>
-                        </div>
-                        <img class="video-image" src="/images/video-bloomberg.jpg" alt="Bloomberg Talking About OpenStack">
                     </div>
                     </a>
                 </div>
@@ -667,7 +668,7 @@
           <div class="modal-body">
             <p class="download-text">
                 <i class="fa fa-file-pdf-o fa-4x"></i>
-                Read the complete white paper that details the success this enterprise company saw when implementing OpenStack with Hadoop, including their phased rollout and insights to achieving adoption.
+                Download the new OpenStack white paper, detailing four approaches to using VMware technology with OpenStack, including example enterprises with their architectural choices.
             </p>
                 <a href="#" class="download-btn"><i class="fa fa-arrow-circle-down fa-2x"></i> Download This White Paper</a>
             <hr>
@@ -706,7 +707,7 @@
     <!-- End Download Modal -->
 
     <!-- Video 1 Modal -->
-    <div class="modal fade" id="VideoModalDisney">
+    <div class="modal fade" id="VideoModalVMWare1">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
@@ -715,9 +716,9 @@
           </div>
           <div class="modal-body">
             <p class="download-text">
-                Day 1 OpenStack Keynote - Disney
+                VMware + OpenStack: Accelerating OpenStack in the Enterprise
             </p>
-                <iframe width="100%" height="315" src="http://www.youtube.com/embed/SREEnNQ6zqg" frameborder="0" allowfullscreen></iframe>
+                <iframe width="100%" height="315" src="//www.youtube.com/embed/3WqFTPgNRGg?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
           </div>
           <div class="modal-footer">
           </div>
@@ -727,6 +728,27 @@
     <!-- End Video 1 Modal -->
 
     <!-- Video 2 Modal -->
+    <div class="modal fade" id="VideoModalVMWare">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <h4 class="modal-title">Featured Video</h4>
+          </div>
+          <div class="modal-body">
+            <p class="download-text">
+                Introduction to OpenStack for VMWare Administrators
+            </p>
+                <iframe width="560" height="315" src="//www.youtube.com/embed/syGmDYfzx5Q?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <div class="modal-footer">
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <!-- End Video 2 Modal -->
+
+    <!-- Video 3 Modal -->
     <div class="modal fade" id="VideoModalWellsFargo">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -738,28 +760,7 @@
             <p class="download-text">
                 OpenStack User Case Study: Wells Fargo
             </p>
-                <iframe width="560" height="315" src="http://www.youtube.com/embed/SKsZGHZio9M" frameborder="0" allowfullscreen></iframe>
-          </div>
-          <div class="modal-footer">
-          </div>
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
-    <!-- End Video 2 Modal -->
-
-    <!-- Video 3 Modal -->
-    <div class="modal fade" id="VideoModalBloomberg">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-            <h4 class="modal-title">Featured Video</h4>
-          </div>
-          <div class="modal-body">
-            <p class="download-text">
-                Building Robust Clouds at Bloomberg
-            </p>
-                <iframe width="560" height="315" src="http://www.youtube.com/embed/OItLD8F1H9A" frameborder="0" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="//www.youtube.com/embed/SKsZGHZio9M" frameborder="0" allowfullscreen></iframe>
           </div>
           <div class="modal-footer">
           </div>

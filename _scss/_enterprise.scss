@@ -39,6 +39,8 @@ h5 {
 }
 .intro-header.legacy {
     background: url(#{$assetsPath}/hero-bkgd-legacy.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative; 
 }
 
 .intro-message {
@@ -989,6 +991,15 @@ a.thumbnail {
     img {
         max-width: 100%;
     }
+}
+h4.lb-caption {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1em;
+    margin: 20px 0 40px;
+    font-weight: 600;
+    color: $blue;
 }
 /*End Legacy*/
 
