@@ -192,7 +192,7 @@ i.fa-arrow-circle-down {
 .story-steps p {
     color: #999;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 400;
 }
 /*End Story Row*/
 
@@ -1019,8 +1019,7 @@ a.featured-event-link {
 /*Enterprise Home Page*/
 .enterprise-bar {
     background: $darkblue;
-    text-align: center;
-    padding: 10px 15px;
+    padding: 15px;
     text-transform: uppercase;
     font-size: 1em;
     -webkit-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.46);
@@ -1034,17 +1033,6 @@ a.featured-event-link {
         &:hover {
             color: white;
             text-decoration: none;
-/*
-            &:before {
-              position: absolute;
-              font-family: FontAwesome;
-              top: 50%;
-              margin-top: -7.5px;
-              left: -18px;
-              content: "\f053";
-              font-size: 0.9em;
-            }
-*/
         }
     }
 }
@@ -1054,6 +1042,26 @@ a.featured-event-link {
     left: 0;
     right: 0;
     z-index: 1000;
+}
+a.enterprise-bar-left {
+    float: left;
+}
+a.enterprise-bar-right {
+    float: right;
+    display: none;
+    font-size: 0.9em;
+    &:before {
+      position: absolute;
+      font-family: FontAwesome;
+      top: 50%;
+      margin-top: -8px;
+      left: -20px;
+      content: "\f077";
+      font-size: 0.9em;
+    }
+}
+.enterprise-bar.fixed a.enterprise-bar-right {
+    display: inline-block;
 }
 .intro-header.crowd {
     background: url(#{$assetsPath}/crowd-bkgd.jpg) no-repeat center center;
