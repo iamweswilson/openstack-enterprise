@@ -251,12 +251,9 @@ i.fa-caret-right {
   -webkit-transition-duration: 1s;
   -webkit-transition-timing-function: linear;
   /* Standard syntax */
-  -webkit-transition-property: width;
-          transition-property: width;
-  -webkit-transition-duration: 1s;
-          transition-duration: 1s;
-  -webkit-transition-timing-function: linear;
-          transition-timing-function: linear; }
+  transition-property: width;
+  transition-duration: 1s;
+  transition-timing-function: linear; }
 
 @media (max-width: 767px) {
   .header-search-form {
@@ -294,7 +291,6 @@ table.gsc-search-box {
   padding-left: 10px;
   background: #fff !important;
   width: 100%;
-  -webkit-transition: width 4s;
   transition: width 4s;
   -webkit-border-horizontal-spacing: 0 !important;
   -webkit-border-vertical-spacing: 0 !important; }
@@ -1771,7 +1767,6 @@ select#service-term {
   color: #30739C;
   background: #fff;
   border: 1px solid #e8e8e8;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -2490,8 +2485,7 @@ ul.featured li {
   height: auto;
   margin: 0 0 30px;
   text-align: center;
-  -moz-box-sizing: border-box;
-       box-sizing: border-box; }
+  box-sizing: border-box; }
 
 a.main-video {
   position: relative;
@@ -2636,7 +2630,6 @@ a.main-video:hover .video-description-wrapper .video-description p {
   display: table;
   overflow: hidden;
   margin-bottom: 20px;
-  -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
 .thumb-play {
@@ -2995,7 +2988,6 @@ i.docs-search-icon {
   padding-left: 35px;
   background: #fff !important;
   width: 100%;
-  -webkit-transition: width 4s;
   transition: width 4s;
   -webkit-border-horizontal-spacing: 0 !important;
   -webkit-border-vertical-spacing: 0 !important; }
@@ -3275,7 +3267,6 @@ a.docs-sidebar-section-title:hover {
 .docs-sidebar-section.active ol {
   list-style: none;
   max-height: 2000px;
-  -webkit-transition: max-height 2s ease;
   transition: max-height 2s ease; }
 
 .docs-sidebar-section ol {
@@ -3289,7 +3280,6 @@ a.docs-sidebar-section-title:hover {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  -webkit-transition: max-height 0s ease;
   transition: max-height 0s ease; }
 
 .docs-sidebar-section.active > ol:last-child {
@@ -3314,13 +3304,11 @@ a.docs-sidebar-section-title:hover {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  -webkit-transition: max-height 0s ease;
   transition: max-height 0s ease; }
 
 .docs-sidebar-section ol.active > li:last-child {
   margin-bottom: 20px;
   max-height: 2000px;
-  -webkit-transition: max-height 2s ease;
   transition: max-height 2s ease; }
 
 .docs-sidebar-section ol.active li > ul {
@@ -3329,7 +3317,6 @@ a.docs-sidebar-section-title:hover {
 .docs-sidebar-section ol.active li, .docs-sidebar-section ol.active li.active > ul, .docs-sidebar-section ol.active li.active, .docs-sidebar-section ol.active li.active ul, .docs-sidebar-section ol.active li.active ul li {
   display: list-item;
   max-height: 2000px;
-  -webkit-transition: max-height 2s ease;
   transition: max-height 2s ease; }
 
 .docs-sidebar-section ol li ul {
