@@ -24,6 +24,9 @@ h5 {
     font-size: 18px;
     font-weight: 400;
 }
+.center {
+    text-align: center;
+}
 
 
 /*Hero*/
@@ -39,6 +42,11 @@ h5 {
 }
 .intro-header.legacy {
     background: url(#{$assetsPath}/hero-bkgd-legacy.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative; 
+}
+.intro-header.unreal {
+    background: url(#{$assetsPath}/hero-bkgd-unreal.jpg) no-repeat center center;
     background-size: cover;
     position: relative; 
 }
@@ -1171,7 +1179,8 @@ a.rounded-wrapper {
 .testimonial-author-img {
     margin: 0 0 30px;
     border: 4px solid $lightblue;
-    border-radius: 100px;
+		border-radius: 100%; 
+		max-width: 130px;
 }
 .testimonial-row blockquote {
     font-family: Georgia, serif;
