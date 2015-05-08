@@ -51,9 +51,12 @@ permalink: /workflow-portability/
     <div class="content-section-a">
         <div class="container">
             <div class="row story-steps center">
-                <div class="col-sm-12">
+                <div class="col-sm-8 col-sm-push-2">
                     <p> 
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sagittis enim at dui fermentum, nec eleifend velit gravida. Mauris ut arcu interdum turpis ultrices interdum nec quis metus. Duis vitae fermentum metus, vel placerat urna. Download the new <a href="#">OpenStack white paper</a>, outlining workflow portability with OpenStack, including example enterprises with their choices. 
+                        Supply chains used to be a matter of assemblers, conveyer belts, and loading docks. But in today’s software-defined economy, that’s not the only kind of supply chain. Most industries, including banking, medical, retail, and entertainment are being transformed by online and mobile applications that deliver secure, on-demand, self-service capabilities directly to customers.  
+                    </p>
+                    <p>
+                        These capabilities aren’t the product of a single inventor or creator. The delivery of an application or service often depends on many contributors, possibly in multiple companies, in an end-to-end workflow. Download the new <a href="#">OpenStack white paper</a> to learn more about digital workflow with OpenStack and how an enterprise like DigitalFilm Tree can maximize business benefit with their innovative post-production process.
                     </p>
                 </div>
             </div>
@@ -73,7 +76,7 @@ permalink: /workflow-portability/
                 </div>
                 <div class="col-lg-5 col-sm-5">
                     <p>
-                    Want to bring cloud agility to your existing virtualized infrastructure? The OpenStack Marketplace offers fully supported distributions and public cloud providers supporting ESXi, and experienced consultants.
+                    Want to build Federated Identity into your workflow? The OpenStack Marketplace offers fully supported ..., and experienced consultants.
                     </p>
                 </div>
                 <div class="col-lg-3 col-sm-3">
@@ -94,10 +97,13 @@ permalink: /workflow-portability/
             <!--Method 1-->
             <div class="row">
                 <div class="col-sm-6">
-                    <h2 class="section-heading">Section Title</h2>
-                    <p class="lead">Section subtitle will go here</p>
+                    <h2 class="section-heading">From Camera to Couch</h2>
+                    <p class="lead">Maximizing efficiency and service to studios</p>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sagittis enim at dui fermentum, nec eleifend velit gravida. Mauris ut arcu interdum turpis ultrices interdum nec quis metus. Duis vitae fermentum metus, vel placerat urna. Fusce viverra augue rhoncus ullamcorper euismod. Suspendisse lobortis gravida felis, et elementum dui ornare vitae. Morbi pellentesque sagittis nibh, nec ullamcorper tortor molestie nec. Maecenas feugiat vulputate lorem, in iaculis leo commodo et. In hac habitasse platea dictumst. Vestibulum vitae tempus eros.
+                        DigitalFilm Tree demonstrated how OpenStack clouds help fill the gap between existing workflows and emerging requirements. For production and post-production processes, they uncovered ways to use OpenStack (specifically Swift, Nova, Keystone and Neutron) to maximize efficiency while providing better services to studios. 
+                    </p>
+                    <p>
+                        DigitalFilm Tree needs to scale for a 2-3 month period for the pilot season, then scale back down. Some projects are much larger or more intensive than others, due to format (4K vs 8K video) or complex special effects requirements. DigitalFilm Tree also doesn’t always know when shows will start or stop. Leveraging public and hybrid cloud allows DigitalFilm Tree to adapt to change at will, effectively creating a new business model by instantly augmenting their workflow.
                     </p>
                     <p>
                         <a href="#">Watch video of Digital Film Tree's Workflow in Action at the Vancouver Summit</a>
@@ -115,8 +121,8 @@ permalink: /workflow-portability/
             <div class="row">
                 <div class="col-sm-6">
                     <div class="thumbnails" data-toggle="lightbox">
-                        <a href="/images/legacy/legacy-placeholder.jpg" class="thumbnail" data-title="">
-                            <img class="img-responsive" src="/images/legacy/legacy-placeholder.jpg" alt="">
+                        <a href="/images/digital-workflow/dft-workflow-diagram.svg" class="thumbnail">
+                            <img src="/images/digital-workflow/dft-workflow-diagram.svg" onerror="/images/digital-workflow/dft-workflow-diagram.jpg" alt="Digital FilmTree OpenStack workflow"/>
                         </a>
                     </div>
                 </div>
@@ -124,13 +130,23 @@ permalink: /workflow-portability/
                     <h2 class="section-heading">The Process</h2>
                     <p class="lead">Digital Film Tree's Workflow Explained</p>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sagittis enim at dui fermentum, nec eleifend velit gravida. Mauris ut arcu interdum turpis ultrices interdum nec quis metus.
+                        To develop "UnREAL" Television Show, DigitalFilm Tree's workflow run through multiple OpenStack clouds. As shown in this diagram, their workflow is as follows:
                         <ol>
-                            <li>Step 1</li>
-                            <li>Step 2</li>
-                            <li>Step 3</li>
-                            <li>Step 4</li>
-                            <li>Step 5</li>
+                            <li>
+                                Directors shoot raw footage for the UnREAL TV show on digital video in Vancouver.  Filmmakers upload video to DigitalFilm Tree’s hybrid OpenStack cloud, hosted in a Blue Box co-location facility nearby.
+                            </li>
+                            <li>
+                                Raw footage is transcoded from high resolution to proxy resolution on the Vancouver cloud, moved to Swift object storage and transported between Vancouver and Los Angeles.
+                            </li>
+                            <li>
+                                Collaborative process until footage is approved as final.                            
+                            </li>
+                            <li>
+                                Final video footage is assembled. Director/producer feedback is incorporated, outsourced special effects are rendered and added. 
+                            </li>
+                            <li>
+                                The show or movie is transferred from the DigitalFilm Tree OpenStack cloud to a Comcast OpenStack cloud for on-demand delivery to cable consumers via Xfinity set-top boxes.
+                            </li>
                         </ol>
                     </p>
                 </div>
@@ -143,10 +159,32 @@ permalink: /workflow-portability/
 
     <!-- End Steps Section -->
 
-
-        <!-- Resulting Platform -->
-
+    <!-- Interop -->
     <div class="content-section-c platform-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="row platform-title-center">
+                    <h1>Workload and Data Portability Across OpenStack Clouds</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-8 col-sm-push-2">
+                    <p>
+                        The first requirement is 100% reliable workload and data portability – in other words, any OpenStack cloud or distribution has to provide identical functionality so developers are confident that apps developed on one cloud will work perfectly on another. That’s a function of OpenStack’s REST APIs, which are easy to learn and program against, and ensure that when a developer writes an app for one OpenStack cloud, it will work across many.  An open, stable API means application portability. 
+                    </p>
+                    <p>
+                    OpenStack values interoperability. To guarantee interoperability for user enterprises, the DefCore committee was formed to define the OpenStack core. This definition uses community resources and involvement to drive interoperability by creating the minimum standards for products labeled "OpenStack."  DefCore sets base requirements by defining capabilities - encompassing must-include code and must-pass API tests for all OpenStack products.  The interoperability requirements ( http://www.openstack.org/interop/) enable workload portability, delivering application consistency across a multitude of public and private clouds, so workflows can function seamlessly with the right capabilities at the optimal cost.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Interop -->
+
+
+        <!-- Federated Identity -->
+
+    <div class="content-section-a steps-section">
         <div class="container">
             <div class="row">
                 <div class="row platform-title-center">
@@ -155,122 +193,92 @@ permalink: /workflow-portability/
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-12">
+                <div class="col-sm-6">
+                    <h2 class="section-heading">Secure Access Across Clouds</h2>
+                    <p>
+                        <em>Workload and data portability, though essential, isn’t enough.</em>
+                    </p>
+                    <p>
+                        DigitalFilm Tree’s cloud, running Keystone, acts as an identity provider for all the collaborators in the process who need to access compute and storage resources for their portion of the workflow. With Keystone, collaborators can easily use the best-fit cloud for their tasks. Though DigitalFilm Tree uses their private cloud, HP Public Cloud, and Blue Box hybrid cloud for various parts of the workflow, theoretically DigitalFilm Tree could use any OpenStack cloud to augment their workflow. With OpenStack, a workflow owning enterprise can use one credential set across multiple clouds. The enterprise maintains a single point of access for everyone involved in the workflow, simplifying and enhancing security. 
+                    </p>
+                    <p>
+                        Workload portability and federated identity are important features that convey technical benefits, but it’s important to realize that they both support a particular kind of adaptability that’s a result of widespread OpenStack availability. That adaptability is the core reason why DigitalFilm tree, its vendors, and its clients enjoy substantial business benefits. See benefits of Federated Identity below.
+                    </p>
+                </div>
+                <div class="col-sm-6">
                     <div class="thumbnails" data-toggle="lightbox">
-                        <a href="/images/legacy/legacy-placeholder.jpg" class="thumbnail" data-title="">
-                            <img class="" src="/images/legacy/legacy-placeholder.jpg" alt="">
+                        <a href="/images/digital-workflow/federation-workflow.svg" class="thumbnail">
+                            <img src="/images/digital-workflow/federation-workflow.svg" onerror="/images/digital-workflow/federation-workflow.jpg" alt="Digital FilmTree OpenStack Federated Identity"/>
                         </a>
                     </div>
                 </div>
-                <div class="col-sm-8 col-sm-push-2">
-                    <h2 class="section-heading">Benefits of Using Federated Identity</h2>
+            </div>
+            <hr>
+            <div class="row center">
+            <h2 class="section-heading center">Some of The Benefits of Using Federated Identity</h2>
+                <div class="col-sm-3 federated-benefits">
+                    <i class="fa fa-bolt"></i>
+                    <h4>Workflow acceleration</h4>
                     <p>
-                        Federated identity offers significant advantages to Digital Film Tree, Comcast, directors, producers, editors, and consumers, including: 
+                        Prior to this approach, video was shipped on disk or tape via truck. Typically, this meant a simple editing or post-production effort took 2-3 days to do a review cycle. With OpenStack, their workflow now takes 2-3 hours.
                     </p>
-                    <ul>
-                        <li><strong>Workflow acceleration:</strong> Prior to this approach, video was shipped on disk or tape via truck. Typically, this meant a simple editing or post-production effort took 2-3 days to do a review cycle.  With OpenStack, their workflow now takes 2-3 hours.</li>
-                        <li><strong>Workflow simplification:</strong> In the past, final content was written to tape, and sent to Comcast on a truck. Now Digital Film Tree or one of their cloud providers flow the final video to Comcast’s private cloud – one OS cloud to another.  </li>
-                        <li><strong>Enhanced security:</strong> Since Digital Film Tree acts as an identity provider, maintaining security and access is streamlined because they are the only party responsible for maintaining userid/password lists. Changes (new hires, resignations) are effective across every service provider instantaneously. Also, admins can add federation enabled external clouds as part of Digital Film Tree’s trust as needed, minimizing ad hoc reliance on untrusted public cloud resources.</li>
-                        <li><strong>Instant-on content delivery:</strong> Since Comcast Cable receives content to their own OpenStack cloud, they delivers TV shows to viewers in their living room directly from their cloud to set-tops cable boxes – minimizing complexity and strengthening reliability.</li>
-                    </ul>
+                </div>
+                <div class="col-sm-3 federated-benefits">
+                    <i class="fa fa-lock"></i>
+                    <h4>Enhanced security</h4>
+                    <p>
+                        Since DigitalFilm Tree acts as an identity provider, maintaining security and access is streamlined because they are the only party responsible for maintaining userid/password directories.
+                    </p>
+                </div>
+                <div class="col-sm-3 federated-benefits">
+                    <i class="fa fa-clock-o"></i>
+                    <h4>Instant-on capacity</h4>
+                    <p>
+                        Rendering and editing are highly compute and storage intensive tasks. Digital resources can be brought online during peak times to support and accelerate their color correction, grading, special effects and rendering processes.
+                    </p>
+                </div>
+                <div class="col-sm-3 federated-benefits">
+                    <i class="fa fa-calendar"></i>
+                    <h4>Planning for the future</h4>
+                    <p>
+                        Archiving metadata enables new capabilities such as “second screen”.  Imagine using a tablet to order the dress an actress is wearing on a television show.
+                    </p>
+                </div>
+            </div>
+            <div class="row center">
+                <div class="col-sm-3 federated-benefits">
+                    <i class="fa fa-cog"></i>
+                    <h4>Complexity reduction</h4>
+                    <p>
+                         In the past, DigitalFilm Tree would add and remove servers and storage to their private clouds. Public cloud consumption minimizes that complexity during peak times.
+                    </p>
+                </div>
+                <div class="col-sm-3 federated-benefits">
+                    <i class="fa fa-wifi"></i>
+                    <h4>Latency</h4>
+                    <p>
+                        By utilizing third-party cloud resources close to their work locations and data centers, they benefit from lower latency and improved bandwidth.
+                    </p>
+                </div>
+                <div class="col-sm-3 federated-benefits">
+                    <i class="fa fa-file-video-o"></i>
+                    <h4>Avoiding media</h4>
+                    <p>
+                        In the past they used hard drives or tapes. Now they avoid the costs and risks of physical media transport.
+                    </p>
+                </div>
+                <div class="col-sm-3 federated-benefits">
+                    <i class="fa fa-database"></i>
+                    <h4>Resiliency</h4>
+                    <p>
+                        Data exists in multiple clouds and users can access seamlessly. If one cloud goes down, users access copies with no loss of service.
+                    </p>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- End Resulting Platform -->
-
-    <!-- Components Section -->
-
-    <div class="content-section-a components-wrapper">
-        <div class="container">
-            <div class="row">
-            <div class="col-lg-12">
-                <h2>OpenStack Components Used</h2>
-            </div>
-            </div>
-                <div class="row">
-                    <div class="col-lg-6 col-sm-6">
-                        <div class="row">
-                            <div class="col-lg-3 col-sm-3">
-                                <a href="http://www.openstack.org/software/openstack-compute/" class="component-icon">
-                                    <img src="/images/compute-icon.svg" onerror="this.onerror=null; this.src=img/compute-icon.png" alt="OpenStack Compute"/>
-                                </a>
-                            </div>
-                            <div class="col-lg-9 col-sm-9">
-                                <h4><a href="http://www.openstack.org/software/openstack-compute/">Compute (Codenamed Nova)</a></h4>
-                                <p>
-                                    The OpenStack cloud operating system enables enterprises and service providers to offer on-demand computing resources, by provisioning and managing large networks of virtual machines. 
-                                </p>
-                                <p>
-                                    <a href="http://www.openstack.org/software/openstack-compute/">Learn More ></a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-sm-6">
-                        <div class="row">
-                            <div class="col-lg-3 col-sm-3">
-                                <a href="http://www.openstack.org/software/openstack-storage/" class="component-icon">
-                                    <img src="/images/object-storage-icon.svg" onerror="this.onerror=null; this.src=img/object-storage-icon.png" alt="OpenStack Object Storage">
-                                </a>
-                            </div>
-                            <div class="col-lg-9 col-sm-9">
-                                <h4><a href="http://www.openstack.org/software/openstack-storage/">Object Storage (Swift)</a></h4>
-                                <p>
-                                    OpenStack provides redundant, scalable object storage using clusters of standardized servers capable of storing petabytes of data
-                                </p>
-                                <p>
-                                    <a href="http://www.openstack.org/software/openstack-storage/">Learn More ></a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6 col-sm-6">
-                        <div class="row">
-                            <div class="col-lg-3 col-sm-3">
-                                <a href="http://www.openstack.org/software/openstack-shared-services/" class="component-icon">
-                                    <img src="/images/shared-services-icon.svg" onerror="this.onerror=null; this.src=img/shared-services-icon.png" alt="OpenStack Shared Services">
-                                </a>
-                            </div>
-                            <div class="col-lg-9 col-sm-9">
-                                <h4><a href="http://www.openstack.org/software/openstack-shared-services/">Shared Services</a></h4>
-                                <p>
-                                    OpenStack has shared services such as Identity, Image management, Orchestration and a Dashboard that provide a unified user experience as they interact with different cloud resources.
-                                </p>
-                                <p>
-                                    <a href="http://www.openstack.org/software/openstack-shared-services/">Learn More ></a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-sm-6">
-                        <div class="row">
-                            <div class="col-lg-3 col-sm-3">
-                                <a href="http://www.openstack.org/software/openstack-storage/" class="component-icon">
-                                    <img src="/images/block-storage-icon.svg" onerror="this.onerror=null; this.src=img/block-storage-icon.png" alt="OpenStack Block Storage">
-                                </a>
-                            </div>
-                            <div class="col-lg-9 col-sm-9">
-                                <h4><a href="http://www.openstack.org/software/openstack-storage/">Block Storage (Cinder)</a></h4>
-                                <p>
-                                    OpenStack provides persistent block level storage devices for use with OpenStack compute instances.
-                                </p>
-                                <p>
-                                    <a href="http://www.openstack.org/software/openstack-storage/">Learn More ></a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        </div>
-    </div>
-
-    <!-- End Components Section -->
-
-    
+    <!-- End Federated Identity -->
 
     <!-- Download and Newsletter -->
 
@@ -441,7 +449,6 @@ permalink: /workflow-portability/
                                 </div>
                                 <div class="col-lg-9">
                                     <ul>
-                                        <li><a href="http://www.con-nect.com.au/cloudandbigdata.html">Connect2015</a>, April 21-22, 2015 in Melborne, Australia</li>
                                         <li><a href="http://www.gartner.com/technology/summits/na/catalyst/">Gartner Catalyst</a>, August 10-13, 2015 in San Diego, California</li>
                                         <li><a href="http://www.gartner.com/technology/symposium/orlando/">Gartner ITxpo</a>, October 4-8, 2015 in Orlando, Florida</li>
                                     </ul>

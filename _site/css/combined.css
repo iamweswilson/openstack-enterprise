@@ -3988,6 +3988,13 @@ h5 {
 .center {
   text-align: center; }
 
+ol li {
+  font-size: 14px;
+  font-weight: normal;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #56646e;
+  margin-bottom: 5px; }
+
 /*Hero*/
 .intro-header {
   padding-top: 0px;
@@ -5101,3 +5108,18 @@ a.blue-btn {
     margin-left: 10px; }
 
 /*End General Styles*/
+/*Digital Workflow Page*/
+.federated-benefits {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+  .federated-benefits i {
+    color: #30739C;
+    margin-bottom: 10px;
+    font-size: 3.5em; }
+  .federated-benefits h4 {
+    color: #2A4E68;
+    /*font-weight: 600;*/ }
+  .federated-benefits p {
+    font-size: 0.9em; }
+
+/*End Digital Workflow Page*/

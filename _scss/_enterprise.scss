@@ -27,6 +27,13 @@ h5 {
 .center {
     text-align: center;
 }
+ol li {
+    font-size: 14px;
+    font-weight: normal;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #56646e; 
+    margin-bottom: 5px;
+}
 
 
 /*Hero*/
@@ -1244,3 +1251,21 @@ a.blue-btn {
     }
 }
 /*End General Styles*/
+/*Digital Workflow Page*/
+.federated-benefits {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    i {
+        color: $blue;
+        margin-bottom: 10px;
+        font-size: 3.5em;
+    }
+    h4 {
+        color: $darkblue;
+        /*font-weight: 600;*/
+    }
+    p {
+        font-size: 0.9em;
+    }
+}
+/*End Digital Workflow Page*/
