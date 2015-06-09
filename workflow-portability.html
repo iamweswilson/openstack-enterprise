@@ -1,7 +1,7 @@
 ---
 layout: openstack-workload
 title: Workload Portability
-permalink: /workflow-portability/
+permalink: /workload-portability/
 ---
 
     <div class="intro-header unreal">
@@ -11,7 +11,7 @@ permalink: /workflow-portability/
                 <div class="col-lg-8 col-sm-8">
                     <div class="intro-message">
                         <h1>Expediting Digital Workflow with OpenStack</h1>
-                        <h3>Modernizing Virtualization Infrastructures with the OpenStack Cloud Management Platform</h3>
+                        <h3>DigitalFilm Tree funnels thousands of hours of video footage to a 1 hour TV show using a mix of private and public OpenStack clouds.</h3>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-4">
@@ -53,10 +53,10 @@ permalink: /workflow-portability/
             <div class="row story-steps center">
                 <div class="col-sm-8 col-sm-push-2">
                     <p> 
-                        Supply chains used to be a matter of assemblers, conveyer belts, and loading docks. But in today’s software-defined economy, that’s not the only kind of supply chain. Most industries, including banking, medical, retail, and entertainment are being transformed by online and mobile applications that deliver secure, on-demand, self-service capabilities directly to customers.  
+                        In today's software-defined economy, supply chains develop digital assets and applications that involve not only an enterprise's employees but also a mix of vendors, contract and even clients.
                     </p>
                     <p>
-                        These capabilities aren’t the product of a single inventor or creator. The delivery of an application or service often depends on many contributors, possibly in multiple companies, in an end-to-end workflow. Download the new <a href="#">OpenStack white paper</a> to learn more about digital workflow with OpenStack and how an enterprise like DigitalFilm Tree can maximize business benefit with their innovative post-production process.
+                        DigitalFilm Tree, a leading post-production company for TV and film, illustrates innovation at work by moving raw footage through a workflow involving worldwide producers and stakeholders examining and processing footage on mobile devices the same day it was shot.  Footage is moved through editing, video effects, and studios with extremely tight turnarounds and can’t-miss deadlines. It’s a compute- and storage-intensive mission-critical workflow powered by OpenStack using a careful orchestration of multiple public and private clouds.
                     </p>
                 </div>
             </div>
@@ -71,12 +71,12 @@ permalink: /workflow-portability/
             <div class="row">
                 <div class="col-lg-3 col-sm-3">
                     <h3>
-                        Getting Expert Help
+                        FIND PARTICIPATING CLOUDS
                     </h3>
                 </div>
                 <div class="col-lg-5 col-sm-5">
                     <p>
-                    Want to build Federated Identity into your workflow? The OpenStack Marketplace offers fully supported ..., and experienced consultants.
+                    Many OpenStack clouds and distributions support the interoperability features used by DigitalFilm Tree.  Visit the OpenStack Marketplace often as "OpenStack Powered" offerings are being added regularly.
                     </p>
                 </div>
                 <div class="col-lg-3 col-sm-3">
@@ -105,14 +105,11 @@ permalink: /workflow-portability/
                     <p>
                         DigitalFilm Tree needs to scale for a 2-3 month period for the pilot season, then scale back down. Some projects are much larger or more intensive than others, due to format (4K vs 8K video) or complex special effects requirements. DigitalFilm Tree also doesn’t always know when shows will start or stop. Leveraging public and hybrid cloud allows DigitalFilm Tree to adapt to change at will, effectively creating a new business model by instantly augmenting their workflow.
                     </p>
-                    <p>
-                        <a href="#">Watch video of Digital Film Tree's Workflow in Action at the Vancouver Summit</a>
-                    </p>
                 </div>
                 <div class="col-sm-6">
                     <div class="thumbnails" data-toggle="lightbox">
-                        <a href="/images/legacy/legacy-placeholder.jpg" class="thumbnail" data-title="">
-                            <img class="img-responsive" src="/images/legacy/legacy-placeholder.jpg" alt="">
+                        <a href="/images/digital-workflow/video-soon.svg" class="thumbnail" data-title="">
+                            <img src="/images/digital-workflow/video-soon.svg" onerror="/images/digital-workflow/video-soon.svg" alt="Video coming soon"/>
                         </a>
                     </div>
                 </div>
@@ -133,7 +130,7 @@ permalink: /workflow-portability/
                         To develop "UnREAL" Television Show, DigitalFilm Tree's workflow run through multiple OpenStack clouds. As shown in this diagram, their workflow is as follows:
                         <ol>
                             <li>
-                                Directors shoot raw footage for the UnREAL TV show on digital video in Vancouver.  Filmmakers upload video to DigitalFilm Tree’s hybrid OpenStack cloud, hosted in a Blue Box co-location facility nearby.
+                                Directors shoot raw footage for UnREAL (and other TV shows) on digital video in Vancouver.  Filmmakers upload video to DigitalFilm Tree’s hybrid OpenStack cloud, hosted in a Blue Box co-location facility nearby.
                             </li>
                             <li>
                                 Raw footage is transcoded from high resolution to proxy resolution on the Vancouver cloud, moved to Swift object storage and transported between Vancouver and Los Angeles.
@@ -145,7 +142,7 @@ permalink: /workflow-portability/
                                 Final video footage is assembled. Director/producer feedback is incorporated, outsourced special effects are rendered and added. 
                             </li>
                             <li>
-                                The show or movie is transferred from the DigitalFilm Tree OpenStack cloud to a Comcast OpenStack cloud for on-demand delivery to cable consumers via Xfinity set-top boxes.
+                                The show or movie is transferred from the DigitalFilm Tree cloud to a Comcast or other cable providers’ OpenStack cloud.
                             </li>
                         </ol>
                     </p>
@@ -170,10 +167,15 @@ permalink: /workflow-portability/
             <div class="row">
                 <div class="col-sm-8 col-sm-push-2">
                     <p>
-                        The first requirement is 100% reliable workload and data portability – in other words, any OpenStack cloud or distribution has to provide identical functionality so developers are confident that apps developed on one cloud will work perfectly on another. That’s a function of OpenStack’s REST APIs, which are easy to learn and program against, and ensure that when a developer writes an app for one OpenStack cloud, it will work across many.  An open, stable API means application portability. 
+                        The first requirement is 100% reliable workload and data portability – in other words, any OpenStack cloud or distribution has to provide identical foundational capabilities so developers are confident that apps developed on one cloud will work perfectly on another. This is a function of three things:
                     </p>
+                    <ul>
+                        <li>OpenStack’s REST APIs</li>
+                        <li>A required set of capabilities encompassing must-include code and must-pass API tests for all OpenStack products</li>
+                        <li>Easily shared data within one geographically dispersed cloud or among many clouds</li>
+                    </ul>
                     <p>
-                    OpenStack values interoperability. To guarantee interoperability for user enterprises, the DefCore committee was formed to define the OpenStack core. This definition uses community resources and involvement to drive interoperability by creating the minimum standards for products labeled "OpenStack."  DefCore sets base requirements by defining capabilities - encompassing must-include code and must-pass API tests for all OpenStack products.  The interoperability requirements ( http://www.openstack.org/interop/) enable workload portability, delivering application consistency across a multitude of public and private clouds, so workflows can function seamlessly with the right capabilities at the optimal cost.
+                        OpenStack values interoperability because it enables optimal IT decision making as seen in DigitalFilm Tree's workflow.  All clouds, distributions and other products labelled "OpenStack" adhere to <a href="http://www.openstack.org/interop/">interoperability requirements</a> that enable workload portability across a multitude of public and private clouds, so workflows can function seamlessly with the right capabilities at the optimal cost.
                     </p>
                 </div>
             </div>
@@ -199,7 +201,7 @@ permalink: /workflow-portability/
                         <em>Workload and data portability, though essential, isn’t enough.</em>
                     </p>
                     <p>
-                        DigitalFilm Tree’s cloud, running Keystone, acts as an identity provider for all the collaborators in the process who need to access compute and storage resources for their portion of the workflow. With Keystone, collaborators can easily use the best-fit cloud for their tasks. Though DigitalFilm Tree uses their private cloud, HP Public Cloud, and Blue Box hybrid cloud for various parts of the workflow, theoretically DigitalFilm Tree could use any OpenStack cloud to augment their workflow. With OpenStack, a workflow owning enterprise can use one credential set across multiple clouds. The enterprise maintains a single point of access for everyone involved in the workflow, simplifying and enhancing security. 
+                        DigitalFilm Tree’s cloud, running OpenStack Identity Service (code-named Keystone), acts as an identity provider for all the collaborators in the workflow. With Keystone, collaborators can easily use the best-fit cloud for their tasks. Theoretically, DigitalFilm Tree and other enterprise's workflows can use any OpenStack cloud to augment their available resources. With OpenStack, the workflow-owning enterprise uses one credential set across multiple clouds and maintains a single point of access for everyone involved in the workflow, simplifying and enhancing security.
                     </p>
                     <p>
                         Workload portability and federated identity are important features that convey technical benefits, but it’s important to realize that they both support a particular kind of adaptability that’s a result of widespread OpenStack availability. That adaptability is the core reason why DigitalFilm tree, its vendors, and its clients enjoy substantial business benefits. See benefits of Federated Identity below.
@@ -215,7 +217,7 @@ permalink: /workflow-portability/
             </div>
             <hr>
             <div class="row center">
-            <h2 class="section-heading center">Some of The Benefits of Using Federated Identity</h2>
+            <h2 class="section-heading center">Benefits of OpenStack - One Platform, Many Clouds</h2>
                 <div class="col-sm-3 federated-benefits">
                     <i class="fa fa-bolt"></i>
                     <h4>Workflow acceleration</h4>
@@ -289,7 +291,7 @@ permalink: /workflow-portability/
                     <div class="download-wrapper">
                         <h3>Download the white paper.</h3>
                         <p>
-                            Read the complete white paper that the differences between legacy infrastructures and cloud computing, as well as, explains the four ways to architect VMWare using OpenStack to create next-generation, large-scale environments.
+                            Read the white paper for the complete DigitalFilm Tree story and how the technologies used apply to other enterprises and digital workflows in the software-defined economy.  Like DigitalFilm Tree, today's savvy businesses know how to leverage cloud capabilities and economics to achieve leadership in their fields.
                         </p>
                         <p class="file-info">
                             <a href="#" data-toggle="modal" data-target="#downloadModal">WorkflowPortabilityWhitePaper.PDF | 1.4MB</a>
@@ -422,7 +424,7 @@ permalink: /workflow-portability/
                     <div class="events-wrapper">
                         <div class="row">
                             <div class="col-lg-12 col-sm-12">
-                                <h2>You Can Also Find Us At Our Upcoming Enterprise Events</h2>
+                                <h2>You Can Also Find Us At Our Upcoming Events</h2>
                             </div>
                         </div>
                         <div class="row events">
@@ -449,8 +451,9 @@ permalink: /workflow-portability/
                                 </div>
                                 <div class="col-lg-9">
                                     <ul>
-                                        <li><a href="http://www.gartner.com/technology/summits/na/catalyst/">Gartner Catalyst</a>, August 10-13, 2015 in San Diego, California</li>
-                                        <li><a href="http://www.gartner.com/technology/symposium/orlando/">Gartner ITxpo</a>, October 4-8, 2015 in Orlando, Florida</li>
+                                        <li><a href="http://www.oscon.com/open-source-2015">OSCON</a>,  July 22, 7-8:30pm, Portland, Oregon</li>
+                                        <li><a href="http://www.gartner.com/events/na/catalyst">Gartner Catalyst Conference</a>, August 10-13, 2015 in San Diego, California</li>
+                                        <li><a href="http://www.gartner.com/events/na/orlando-symposium">Gartner Symposium/ITxpo</a>, October 4-8, 2015 in Orlando, Florida</li>
                                     </ul>
                                 </div>
                             </row>
@@ -476,7 +479,7 @@ permalink: /workflow-portability/
           <div class="modal-body">
             <p class="download-text">
                 <i class="fa fa-file-pdf-o fa-4x"></i>
-                Download the new OpenStack white paper, detailing four approaches to using VMware technology with OpenStack, including example enterprises with their architectural choices.
+                 Download the new OpenStack white paper to learn more about digital workflow with OpenStack and how an enterprise like DigitalFilm Tree can maximize business benefit with their innovative post-production process.
             </p>
                 <a href="#" class="download-btn"><i class="fa fa-arrow-circle-down fa-2x"></i> Download This White Paper</a>
             <hr>
