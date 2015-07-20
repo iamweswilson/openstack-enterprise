@@ -4810,6 +4810,14 @@ a .video-overlay p {
   margin: 20px auto;
   text-align: center;
   vertical-align: middle; }
+  .modal-body a.download-btn.half {
+    padding: 20px 10px;
+    width: 49.54%;
+    display: inline-block;
+    text-align: center;
+    min-height: 130px; }
+    .modal-body a.download-btn.half i {
+      display: block; }
 
 .modal-body i {
   vertical-align: middle;
@@ -5274,5 +5282,10 @@ img.forrester-chart {
 .forrester-footnote {
   color: #2A4E68;
   font-size: 0.9em; }
+
+p.modal-footnote {
+  font-style: italic;
+  text-align: center;
+  margin-top: 20px; }
 
 /*End Forrester Report Page*/
