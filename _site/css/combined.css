@@ -5275,4 +5275,39 @@ img.forrester-chart {
   color: #2A4E68;
   font-size: 0.9em; }
 
+.forrester-tei-highlight {
+  background: #30739C;
+  padding: 60px 0; }
+  .forrester-tei-highlight h2 {
+    color: white;
+    margin: 0 0 10px; }
+  .forrester-tei-highlight h4 {
+    color: white;
+    margin: 0 0 20px;
+    font-style: italic; }
+  .forrester-tei-highlight p {
+    color: white; }
+
+a.highligh-btn {
+  background: #2A4E68;
+  padding: 15px 20px;
+  color: white;
+  margin: 20px 0 0;
+  display: block;
+  max-width: 300px;
+  text-align: center; }
+  a.highligh-btn i {
+    margin-left: 10px; }
+  a.highligh-btn:hover {
+    background: #0C1722;
+    text-decoration: none; }
+
+img.global-figures-chart {
+  width: 352px;
+  max-width: 100%; }
+
+@media (max-width: 767px) {
+  img.global-figures-chart {
+    margin-bottom: 20px; } }
+
 /*End Forrester Report Page*/
