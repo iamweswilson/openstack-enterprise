@@ -1,0 +1,253 @@
+/*App Dev Home Page*/
+.intro-header.appdev {
+	background: url(#{$assetsPath}/appdev/hero-bg-blue.jpg) no-repeat center center;
+	background-size: cover;
+	.intro-message {
+		text-align: center;
+		padding-bottom: 30px;
+		h1 {
+			text-align: center;
+			margin-bottom: 30px;
+		}
+		p {
+			text-align: center;
+		}
+	}
+}
+a.photo-credit {
+	position: absolute;
+	bottom: 10px;
+	right: 30px;
+	color: #fff;
+	opacity: 0.7;
+	font-size: 1.3em; 
+}
+.appdev-download-row {
+	padding: 50px 0 60px;
+	background: $brightblue;
+	h3 {
+		font-size: 1.4em;
+		text-transform: uppercase;
+		font-weight: 300;
+		color: white;
+	}
+	p {
+		font-weight: 300;
+		color: $lightblue;
+	}
+	a.container-download-btn {
+		background: $darkblue;
+		color: white;
+		padding: 15px;
+		width: 100%;
+		border-radius: 4px;
+		display: block;
+		margin-top: 30px;
+		i {
+			margin-left: 5px;
+		}
+		&:hover {
+			background: $darkbluehover;
+			text-decoration: none;
+		}
+	}
+}
+.why-ues-wrapper.appdev {
+	padding: 60px 0 90px;
+}
+.appdev-build-wrapper {
+	text-align: center;
+	h1 {
+		font-weight: 300;
+		margin-bottom: 20px;
+	}
+	p {
+		color: $darkblue;
+		a {
+			text-decoration: underline;
+		}
+	}
+}
+a.appdev-build-video {
+	display: block;
+	position: relative;
+	margin: 30px auto 40px;
+	max-width: 350px;
+	.play-button {
+		width: 30%;
+		top: 30%;
+	}
+	img {
+		max-width: 100%;
+	}
+}
+.appdev-apps-section {
+	padding: 90px 0;
+	background: white;
+	h2 {
+		font-weight: 300;
+		margin: 0 0 10px;
+	}
+	a.blue-btn {
+		i {
+			margin: 0 5px 0 0;
+			font-size: 1.1em;
+		}
+	}
+}
+.enterprise-why-icons.appdev {
+    text-align: center;
+    h3 {
+        font-size: 1.65em;
+        margin: 0 auto 0px;
+        max-width: 80%;
+        min-height: 55px;
+        line-height: 1.2em;
+    }
+    i {
+        font-size:5em;
+        color: $blue;
+        margin-bottom: 20px;
+    }
+    p {
+        color: #56646e;
+        margin: auto;
+        font-size: 1em;
+    }
+}
+.appdev-quotes-wrapper {
+	background: white;
+	padding: 90px 0;
+	.section-title-center {
+		margin-bottom: 30px;
+		h1 {
+			margin-bottom: 40px;
+		}
+		p {
+			color: $darkblue;
+			margin-bottom: 40px;
+		}
+	}
+	.appdev-quotes {
+		padding: 0;
+		text-align: center;
+		blockquote {
+		    font-family: Georgia, serif;
+		    font-weight: normal;
+		    font-size: 1em;
+		    border: none;
+		    position: relative;
+		    color: $darkblue;
+		    margin-bottom: 15px;
+		}
+		h4 {
+			font-size: 0.9em;
+			font-weight: 600;
+			color: $darkblue;
+			text-transform: uppercase;
+		}
+	}
+	.appdev-quotes blockquote:before {
+	    color: $lightblue;
+	    font-size: 5em;
+	    position: absolute;
+	    content: open-quote;
+	    top: -30px;
+	    left: -20px;
+	}
+	.appdev-quotes blockquote:after {
+		visibility: hidden;
+		content: close-quote;
+	}
+
+}
+
+.fixed-image.appdev {
+    background-image: url('#{$assetsPath}/appdev/fixed-bkgd.jpg');
+}
+.video-wrapper.small {
+	.video-overlay {
+	    top: 20%;
+	}
+	.play-button {
+	    width: 30%;
+	    top: 20%;
+	    img {
+	    	width: 100%;
+	    }
+	}
+}
+@media(max-width:1199px) {
+	.video-wrapper.small {
+	    .video-overlay {
+	        top: 10%;
+	    }
+	}
+}
+@media(max-width:991px) {
+	.video-wrapper.small {
+	    .video-overlay {
+	        top: 0%;
+	    }
+	}
+}
+@media(max-width:767px) {
+	.video-wrapper.small {
+	    .video-overlay {
+	        top: 75%;
+	    }
+	}
+}
+@media(max-width:480px) {
+	.video-wrapper.small {
+	    .video-overlay {
+	        top: 30%;
+	    }
+	}
+}
+.appdev-action-wrapper {
+	text-align: center;
+	padding: 40px 0 60px;
+	h1 {
+		margin: 0 0 25px;
+	}
+	p {
+		text-align: center;
+	}
+	a.appdev-marketplace-btn {
+		display: block;
+		max-width: 300px;
+		background: $red;
+		color: white;
+		padding: 15px 20px;
+		border-radius: 4px;
+		text-transform: uppercase;
+		margin: 30px auto 0;
+		i {
+			margin-left: 5px;
+			font-size: 1.2em;
+		}
+		&:hover {
+			background: $redhover;
+			text-decoration: none;
+		}
+	}
+}
+i.appdev-try-icon {
+	color: $darkblue;
+	font-size: 5em;
+	margin-bottom: 15px;
+}
+.border-left {
+	position: relative;
+	&:before {
+		content: '';
+		border-left: 1px solid $lightbluehover;
+		height: 100%;
+		position: absolute;
+		top: 10px;
+		bottom: 10px;
+		left: -15px;
+	}
+}
+/*End App Dev Home Page*/
