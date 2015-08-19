@@ -5363,12 +5363,16 @@ a.photo-credit {
     width: 100%;
     border-radius: 4px;
     display: block;
-    margin-top: 30px; }
+    margin-top: 50px; }
     .appdev-download-row a.container-download-btn i {
       margin-left: 5px; }
     .appdev-download-row a.container-download-btn:hover {
       background: #0C1722;
       text-decoration: none; }
+
+@media (max-width: 767px) {
+  .appdev-download-row a.container-download-btn {
+    margin-top: 30px; } }
 
 .why-ues-wrapper.appdev {
   padding: 60px 0 90px; }
