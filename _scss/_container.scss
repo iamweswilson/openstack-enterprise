@@ -1,0 +1,51 @@
+/*Containers Page*/
+.intro-header.containers {
+    background: url(#{$assetsPath}/containers/hero-bkgd-containers.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative; 
+}
+.containers-intro {
+	background-color: white;
+	padding: 40px 0 60px;
+}
+.containers-highlights {
+	background-color: $lightblue;
+	padding: 60px 0;
+	color: $darkblue;
+	text-align: center;
+	h2 {
+		text-align: center;
+	}
+	i {
+		color: $darkblue;
+	}
+}
+.containers-action-wrapper {
+	text-align: center;
+	padding: 50px 0 90px;
+	background: white;
+	border-top: 1px solid $lightblue;
+	p {
+		text-align: center;
+		color: $darkblue;
+	}
+	a.containers-action-btn {
+		display: block;
+		max-width: 300px;
+		background: $red;
+		color: white;
+		padding: 15px 20px;
+		border-radius: 4px;
+		text-transform: uppercase;
+		margin: 30px auto 0;
+		i {
+			margin-right: 5px;
+			font-size: 1.2em;
+		}
+		&:hover {
+			background: $redhover;
+			text-decoration: none;
+		}
+	}
+}
+/*End Containers Page*/
