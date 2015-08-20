@@ -5534,6 +5534,16 @@ i.appdev-try-icon {
   background: url(/images/containers/hero-bkgd-containers.jpg) no-repeat center center;
   background-size: cover;
   position: relative; }
+  .intro-header.containers a.photo-credit {
+    bottom: 70px; }
+
+@media (max-width: 767px) {
+  .intro-header.containers .intro-message {
+    padding-bottom: 0; }
+  .intro-header.containers a.photo-credit {
+    bottom: 100px; }
+  .intro-header.containers .download-container {
+    margin-bottom: 50px; } }
 
 .containers-intro {
   background-color: white;
@@ -5544,10 +5554,22 @@ i.appdev-try-icon {
   padding: 60px 0;
   color: #2A4E68;
   text-align: center; }
+  .containers-highlights .single {
+    padding: 20px 2% 10px; }
   .containers-highlights h2 {
-    text-align: center; }
+    text-align: center;
+    margin: 0 0 40px; }
+  .containers-highlights h4 {
+    font-size: 1.1em;
+    line-height: 1.5; }
   .containers-highlights i {
-    color: #2A4E68; }
+    color: #30739C;
+    margin-bottom: 10px; }
+  .containers-highlights a.blue-btn {
+    background-color: #2A4E68;
+    display: block;
+    max-width: 300px;
+    margin: 40px auto 30px; }
 
 .containers-action-wrapper {
   text-align: center;
@@ -5564,7 +5586,6 @@ i.appdev-try-icon {
     color: white;
     padding: 15px 20px;
     border-radius: 4px;
-    text-transform: uppercase;
     margin: 30px auto 0; }
     .containers-action-wrapper a.containers-action-btn i {
       margin-right: 5px;
