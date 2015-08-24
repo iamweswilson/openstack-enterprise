@@ -42,7 +42,7 @@ a.photo-credit {
 		width: 100%;
 		border-radius: 4px;
 		display: block;
-		margin-top: 50px;
+		margin-top: 20px;
 		i {
 			margin-left: 5px;
 		}
@@ -52,11 +52,24 @@ a.photo-credit {
 		}
 	}
 }
+i.appdev-download-icon {
+	color: $darkblue;
+	text-align: center;
+}
 @media (max-width: 767px) {
 	.appdev-download-row {
 		a.container-download-btn {
 			margin-top: 30px;
 		}
+	}
+}
+.testimonial-row.appdev {
+	background-color: $lightblue;
+	blockquote {
+		color: $darkblue;
+	}
+	blockquote:before, blockquote:after {
+		color: $lightbluehover;
 	}
 }
 .why-ues-wrapper.appdev {
@@ -70,15 +83,28 @@ a.photo-credit {
 	}
 	p {
 		color: $darkblue;
+		i {
+			color: $lightbluehover;
+		}
 		a {
 			text-decoration: underline;
+		}
+	}
+	.appdev-build-row {
+		margin-top: 30px;
+	}
+	a.appdev-build-cover {
+		display: block;
+		margin-top: 15px;
+		img {
+			max-height: 200px;
 		}
 	}
 }
 a.appdev-build-video {
 	display: block;
 	position: relative;
-	margin: 30px auto 40px;
+	margin: 10px auto 40px;
 	max-width: 350px;
 	.play-button {
 		width: 30%;
@@ -215,6 +241,7 @@ a.appdev-build-video {
 .appdev-action-wrapper {
 	text-align: center;
 	padding: 40px 0 60px;
+	background: $lightblue;
 	h1 {
 		margin: 0 0 25px;
 	}
@@ -223,13 +250,13 @@ a.appdev-build-video {
 	}
 	a.appdev-marketplace-btn {
 		display: block;
-		max-width: 300px;
-		background: $red;
+		max-width: 350px;
+		background: #DA422F;
 		color: white;
 		padding: 15px 20px;
 		border-radius: 4px;
-		text-transform: uppercase;
-		margin: 30px auto 0;
+		text-transform: none;
+		margin: 30px auto 0; 
 		i {
 			margin-left: 5px;
 			font-size: 1.2em;
@@ -255,6 +282,18 @@ i.appdev-try-icon {
 		top: 10px;
 		bottom: 10px;
 		left: -15px;
+	}
+}
+.featured-wrapper.appdev {
+	.video-wrapper.small {
+		margin-bottom: 10px;
+	}
+	p.video-title {
+		margin: 0 auto;
+		font-size: 14px;
+		font-weight: 400;
+		width: 100%;
+		color: $darkblue;
 	}
 }
 /*End App Dev Home Page*/
