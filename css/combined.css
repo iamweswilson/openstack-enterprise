@@ -5625,3 +5625,49 @@ i.appdev-try-icon {
       text-decoration: none; }
 
 /*End Containers Page*/
+/*NFV Landing*/
+.foundation-report-title {
+  font-size: 1.3em;
+  font-weight: 600;
+  margin: 0 0 15px;
+  position: relative;
+  display: inline-block; }
+  .foundation-report-title:before, .foundation-report-title:after {
+    content: "";
+    position: absolute;
+    border-bottom: 1px solid white;
+    top: 13px;
+    width: 80px; }
+  .foundation-report-title:before {
+    right: 100%;
+    margin-right: 10px; }
+  .foundation-report-title:after {
+    left: 100%;
+    margin-left: 10px; }
+
+.intro-header.nfv {
+  background: url(/images/nfv/nfv-hero.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 60px 0; }
+  .intro-header.nfv .overlay {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px; }
+  .intro-header.nfv .intro-message {
+    text-align: center;
+    padding: 0; }
+    .intro-header.nfv .intro-message h1 {
+      text-align: center;
+      margin-bottom: 30px; }
+    .intro-header.nfv .intro-message p {
+      text-align: center; }
+
+.why-ues-wrapper.nfv {
+  padding: 60px 0 40px; }
+  .why-ues-wrapper.nfv p {
+    margin-bottom: 30px; }
+
+.fixed-image.nfv {
+  background-image: url('/images/nfv/fixed-bkgd.jpg'); }
+
+/*End NFV Landing*/

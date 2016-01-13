@@ -1,0 +1,55 @@
+/*NFV Landing*/
+.foundation-report-title {
+	font-size: 1.3em;
+	font-weight: 600;
+	margin: 0 0 15px;
+	position: relative;
+	display: inline-block;
+	&:before, &:after {
+		content: "";
+		position: absolute;
+		border-bottom: 1px solid white;
+		top: 13px;
+		width: 80px;
+	}
+	&:before {
+		right: 100%;
+		margin-right: 10px;
+	}
+	&:after {
+		left: 100%;
+		margin-left: 10px;
+	}
+}
+.intro-header.nfv {
+	background: url(#{$assetsPath}/nfv/nfv-hero.jpg) no-repeat center center;
+	background-size: cover;
+	padding: 60px 0;
+	.overlay {
+		width: 100%;
+		background: rgba(0,0,0,0.6);
+		padding: 30px;
+	}
+	.intro-message {
+		text-align: center;
+		padding: 0;
+		h1 {
+			text-align: center;
+			margin-bottom: 30px;
+		}
+		p {
+			text-align: center;
+		}
+	}
+}
+.why-ues-wrapper.nfv {
+	padding: 60px 0 40px;
+	p {
+		margin-bottom: 30px;
+	}
+}
+.fixed-image.nfv {
+    background-image: url('#{$assetsPath}/nfv/fixed-bkgd.jpg');
+}
+
+/*End NFV Landing*/
