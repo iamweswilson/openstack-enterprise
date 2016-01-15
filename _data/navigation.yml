@@ -43,10 +43,16 @@
       link: "/user-stories/"
 
     - type: divider
+    - name: OpenStack in the Enterprise
+      link: //openstack.org/enterprise
+    - name: Application Developers
+      link: //openstack.org/appdev
+    - name: Telcom & NFV
+      link: /telcom
     - name: Superuser Magazine
-      link: //superuser.openstack.org/
-    - name: "Featured:  Top 10 Automaker"
-      link: http://www.openstack.org/enterprise/auto/  
+      link: //superuser.openstack.org
+    - name: User Survey
+      link: //openstack.org/surveys/landing
 
 - id: Community
   name: Community
