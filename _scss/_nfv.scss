@@ -35,7 +35,7 @@
 		padding: 0;
 		h1 {
 			text-align: center;
-			margin-bottom: 30px;
+			margin-bottom: 20px;
 			font-size: 2.5em;
 		}
 		p {
@@ -122,6 +122,77 @@ a.testimonial-link {
 	.video-title {
 		font-size: 0.9em;
 		width: 100%;
+	}
+}
+.summit-promo {
+	width: 100%;
+	&.nfv {
+		background: url(/images/nfv/nfv-summit-bkgd.jpg) no-repeat center center;
+		background-size: cover;
+		padding: 60px 0 80px;
+		h3 {
+			color: white;
+		}
+		p {
+			color: white;
+			a {
+				color: white;
+				text-decoration: underline;
+			}
+		}
+		.nfv-summit-right {
+			margin-top: 10px;
+			text-align: center;
+			img.nfv-summit-logo {
+				max-width: 130px;
+				margin-bottom: 5px;
+			}
+			.nfv-summit-dates {
+				color: white;
+				font-size: 1.1em;
+				margin-bottom: 20px;
+				font-style: italic;
+				.city {
+					font-size: 2em;
+					text-transform: uppercase;
+					display: block;
+					font-weight: 700;
+				}
+			}
+			.nfv-summit-register-btn {
+				a {
+					display: block;
+					text-align: center;
+					max-width: 80%;
+					margin: 10px auto;
+					background: $brightblue;
+					color: white;
+					padding: 10px 20px;
+					border-radius: 4px;
+					i {
+						margin-left: 5px;
+					}
+					&:hover {
+						background: $blue;
+						text-decoration: none;
+					}
+				}
+			}
+
+		}
+	}
+}
+@media (max-width: 767px) {
+	.summit-promo.nfv {
+		h3 {
+			text-align: center;
+		}
+		p {
+			text-align: center;
+		}
+		.nfv-summit-right {
+			margin-top: 30px;
+		}
 	}
 }
 /*Five column layout*/
