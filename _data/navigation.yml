@@ -47,8 +47,8 @@
       link: //openstack.org/enterprise
     - name: Application Developers
       link: //openstack.org/appdev
-    - name: Telcom & NFV
-      link: /telcom
+    - name: Telecom & NFV
+      link: /telecom
     - name: Superuser Magazine
       link: //superuser.openstack.org
     - name: User Survey
