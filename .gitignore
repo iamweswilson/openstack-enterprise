@@ -1,5 +1,7 @@
+node_modules
+Gemfile.lock
 _site/*
-_site/css
+_site/css/
 node_modules
 Gemfile.lock
 css/*
