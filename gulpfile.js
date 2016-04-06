@@ -3,7 +3,6 @@ var browserSync = require('browser-sync');
 var sass        = require('gulp-sass');
 var prefix      = require('gulp-autoprefixer');
 var cp          = require('child_process');
-var bb          = require('bitballoon');
 var config      = require('./config');
 
 var messages = {
@@ -59,19 +58,6 @@ gulp.task('sass', function () {
 gulp.task('watch', function () {
     gulp.watch('_scss/*.scss', ['sass']);
     gulp.watch(['*.html','css/*', '_layouts/*.html', '_posts/*','_data/*','_includes/*','profile/*.html'], ['jekyll-rebuild']);
-});
-
-/**
- * Deploy site to bitballoon
- */
-gulp.task('deploy', ['jekyll-build'], function() {
-  bb.deploy({
-    access_token: config.BB_ACCESS_TOKEN,
-    site_id: config.BB_SITE_ID,
-    dir: config.BB_SITE_DIR
-  }, function(err, deploy) {
-    if (err) { throw(err) }
-  });
 });
 
 /**
