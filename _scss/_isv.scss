@@ -1,8 +1,14 @@
 /*ISVs landing page*/
 .intro-header.isv {
+	padding: 40px 0;
+	background: url(/images/isv/isv-bkgd3.jpg) no-repeat center center;
 	h1 {
 		text-align: center;
 		margin-bottom: 15px;
+		color: white;
+	}
+	p {
+		color: white;
 	}
 }
 .appdev-quotes {
@@ -10,8 +16,31 @@
 		text-align: left;
 	}
 }
+.enterprise-why-icons.isv {
+	i {
+		border-radius: 4px;
+	    font-size: 5em;
+	    color: $brightblue;
+	    margin-bottom: 10px;
+	    line-height: 1;
+	}
+	h3 {
+	    font-size: 1.5em;
+	    margin: 0 auto;
+	    max-width: 100%;
+	    min-height: 0;
+	    line-height: 1em;
+	    color: $blue;
+	}
+}
 .isv-growth-wrapper {
 	margin-top: 40px;
+	p {
+	    font-size: 15px;
+	    font-weight: 300;
+	    color: #445059;
+	    margin: 10px auto;
+	}
 	.isv-growth-right {
 		margin-top: 10px;
 		color: $darkblue;
@@ -19,6 +48,180 @@
 }
 img.isv-growth-chart {
 	float: left;
-	margin-right: 15px;
+	margin-right: 20px;
+	max-width: 580px;
+	border: 2px solid $lightblue;
+}
+.isv-sml {
+	display: none;
+}
+.isv-sml, .isv-lrg {
+	i {
+		margin-right: 10px;
+	}
+}
+@media (max-width: 767px) {
+	img.isv-growth-chart {
+		max-width: 100%;
+		margin-bottom: 20px;
+		margin-right: 0;
+	}
+	.isv-sml {
+		display: block;
+	}
+	.isv-lrg {
+		display: none;
+	}
+}
+
+h5.section-title {
+    color: $darkblue;
+    font-weight: 600;
+    text-transform: capitalize;
+    border-bottom: 1px solid #dae5ee;
+    padding-bottom: 20px;
+    margin: 50px 0 30px;
+
+    span {
+    	float: right;
+    	text-transform: uppercase;
+    	color: #a9a9a9;
+    	font-weight: 700;
+    	font-size: 0.8em;
+    	position: relative;
+    	i {
+    		font-size: 1.3em;
+    		margin-right: 5px;
+    	}
+    	&:hover {
+    		color: $brightblue;
+    		cursor: default;
+    	}
+    }
+    .tooltip {
+    	font-weight: 400;
+    	width: auto;
+    	white-space: normal;
+    }
+}
+.isv-resources-wrapper {
+	padding: 60px 0;
+	h2 {
+	    text-align: center;
+	    font-size: 35px;
+	    font-weight: 300;
+	    color: #445059;
+	    margin-bottom: 20px;
+	}
+	p {
+	    font-size: 15px;
+	    font-weight: 300;
+	    color: #445059;
+	    margin: 10px auto;
+	}
+}
+.isv-promotional-wrapper {
+	h2 {
+	    text-align: left;
+	    font-size: 35px;
+	    font-weight: 300;
+	    color: #445059;
+	    margin-bottom: 20px;
+	}
+	h5.section-title {
+		text-align: left;
+		margin-bottom: 0px;
+		padding-bottom: 10px;
+	}
+	p {
+	    text-align: left;
+	    font-size: 15px;
+	    font-weight: 300;
+	    color: #445059;
+	    margin: 10px auto;
+	}
+	.isv-promo-btn {
+		background: $brightblue;
+		padding: 3px 20px;
+		border-radius: 20px;
+		color: white;
+		display: inline-block;
+		font-size: .9em;
+		&:hover, &:focus {
+			background: $darkblue;
+			text-decoration: none;
+		}
+		i {
+			margin-left: 5px;
+		}
+	}
+}
+.fixed-image.isv {
+    background-image: url('#{$assetsPath}/isv/keyboard-bkgd.jpg');
+}
+.featured-wrapper.isv {
+	.video-wrapper {
+		.play-button {
+			text-align: center;
+			top: 28%;
+			img {
+				max-width: 80px;
+				padding: 10px;
+				background: rgba(0,0,0,.5);
+				border-radius: 4px;
+			}
+		}
+		&:hover {
+			.play-button {
+				display: block;
+				img {
+					background: rgba(29, 153, 222,1);
+				}
+			}
+		}
+	}
+}
+.isv-cta {
+	background: $brightblue;
+	padding: 40px 0;
+	width: 100%;
+	color: white;
+	text-align: center;
+	i {
+		font-size: 4em;
+		color: $blue;
+		margin-bottom: 20px;
+	}
+	a {
+		color: white;
+		text-decoration: underline;
+	}
+	a.isv-cta-btn {
+	    background: $blue;
+	    border-radius: 4px;
+	    padding: 10px 20px;
+	    display: block;
+	    max-width: 210px;
+	    margin: 20px auto 0;
+	    font-weight: 600;
+	    text-decoration: none;
+	    text-align: center;
+	    &:hover {
+	    	background: $darkblue;
+	    }
+		i {
+			font-size: 1em;
+			color: white;
+			margin: 0 0 0 10px;
+		}
+	}
+}
+.isv-footnotes {
+	padding: 60px 0;
+	width: 100%;
+	background: white;
+	p {
+		font-size: 0.8em;
+	}
 }
 /*End ISVs landing page*/
