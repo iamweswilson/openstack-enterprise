@@ -1,0 +1,149 @@
+/*Security Page*/
+.intro-header.security {
+    background: url(#{$assetsPath}/security/hero-bkgd-security.jpg) no-repeat right center;
+    background-size: cover;
+    position: relative; 
+    a.photo-credit {
+    	bottom: 70px;
+    }
+}
+@media (max-width: 767px) {
+	.intro-header.security {
+		.intro-message {
+			padding-top: 30px;
+			padding-bottom: 0;
+		}
+		a.photo-credit {
+			bottom: 68px;
+		}
+		.download-container {
+			margin-bottom: 50px;
+			width: 95%;
+		}
+	}
+}
+.security-intro {
+	background-color: $lightblue;
+	padding: 60px 0 90px;
+}
+.badge-promo-row {
+    background: $brightblue;
+    padding: 60px 0 40px;
+    text-align: center;
+    h2 {
+	    color: white;
+	    margin: 0 0 40px;
+	    text-align: center;
+    }
+    a {
+    	color: white;
+    	text-decoration: underline;
+    }
+    p {
+	    color: white;
+    }
+    hr {
+    	width: 40%;
+    	border-color: white;
+    	opacity: 0.7;
+    	margin: 30px auto;
+    }
+}
+.security-icons {
+	background-color: white;
+	padding: 30px 0 60px;
+	color: $darkblue;
+	text-align: center;
+	.single {
+		padding: 20px 2% 10px;
+	}
+	h3 {
+	    font-size: 1.65em;
+	    margin: 0 auto 0px;
+	    min-height: 55px;
+	    line-height: 1.2em;
+	}
+	i {
+		color: $blue;
+		margin-bottom: 20px;
+	}
+	p {
+		color: #bluehover;
+	    margin: auto;
+	    font-size: 1em;
+	}
+	a.blue-btn {
+		background-color: $darkblue;
+		display: block;
+		max-width: 300px;
+		margin: 40px auto 30px;
+	}
+}
+.security-highlights {
+	padding: 60px 0 30px;
+	.security-highlights-lists {
+		ul {
+			margin: 0;
+			
+			li {
+				
+				margin-bottom: 10px;
+			}
+		}
+	}
+}
+.security-action-wrapper {
+	text-align: center;
+	padding: 50px 0 90px;
+	background: white;
+	border-top: 1px solid $lightblue;
+	p {
+		text-align: center;
+		color: $darkblue;
+	}
+	a.security-action-btn {
+		display: block;
+		max-width: 300px;
+		background: $red;
+		color: white;
+		padding: 15px 20px;
+		border-radius: 4px;
+		margin: 30px auto 0;
+		i {
+			margin-right: 5px;
+			font-size: 1.2em;
+		}
+		&:hover {
+			background: $redhover;
+			text-decoration: none;
+		}
+	}
+}
+.featured-wrapper.security {
+	background-color: $lightblue;
+	.video-wrapper {
+		.play-button {
+			text-align: center;
+			top: 28%;
+			img {
+				max-width: 80px;
+				padding: 10px;
+				background: rgba(0,0,0,.5);
+				border-radius: 4px;
+			}
+		}
+		&:hover {
+			.play-button {
+				display: block;
+				img {
+					background: rgba(29, 153, 222,1);
+				}
+			}
+		}
+	}
+}
+.sub-text {
+	text-align: center;
+	margin-bottom: 30px;
+}
+/*End security Page*/

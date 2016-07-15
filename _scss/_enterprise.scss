@@ -12,7 +12,6 @@ h4,
 h5,
 h6 {
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
-    font-weight: 400;
 }
 
 h5 {
@@ -1743,6 +1742,37 @@ a.path-options-btn {
         text-decoration: underline;
         &:hover {
             color: $blue;
+        }
+    }
+}
+.summit-promo {
+    background-size: cover;
+    padding: 60px 0 80px;
+    &.barcelona {
+        background: url('/images/barcelona-bkgd-lrg.jpg') no-repeat center center;
+    }
+    h3 {
+        color: white;
+    }
+    p {
+        color: white;
+    }
+    .nfv-summit-right {
+        margin-top: 10px;
+        text-align: center;
+        img.nfv-summit-logo {
+            max-width: 130px;
+            margin-bottom: 5px;
+        }
+        .nfv-summit-register-btn a {
+            display: block;
+            text-align: center;
+            max-width: 80%;
+            margin: 10px auto;
+            background: #29abe2;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 4px;
         }
     }
 }
