@@ -27,7 +27,7 @@
 	padding: 60px 0 90px;
 }
 .badge-promo-row {
-    background: $brightblue;
+    background: #D1A603;
     padding: 60px 0 40px;
     text-align: center;
     h2 {
@@ -78,6 +78,11 @@
 		max-width: 300px;
 		margin: 40px auto 30px;
 	}
+}
+img.security-badge {
+	width: 225px;
+	height: 225px;
+	margin: 20px auto;
 }
 .security-highlights {
 	padding: 60px 0 30px;
