@@ -1,0 +1,97 @@
+.intro-header.science {
+    background: url(#{$assetsPath}/science/science-hero-bkgd.jpg) no-repeat right center;
+    background-size: cover;
+    position: relative; 
+    a.photo-credit {
+    	bottom: 70px;
+    }
+}
+@media (max-width: 767px) {
+	.intro-header.science {
+		.intro-message {
+			padding-top: 30px;
+			padding-bottom: 0;
+		}
+		a.photo-credit {
+			bottom: 68px;
+		}
+		.download-container {
+			margin-bottom: 50px;
+			width: 95%;
+		}
+	}
+}
+.science-intro {
+  text-align: center;
+  padding: 60px 0;
+}
+.science-icons {
+    background-color: $lightblue;
+    padding: 30px 0 60px;
+    color: $darkblue;
+    text-align: center;
+  p {
+    color: $darkblue;
+    margin: auto;
+    font-size: 1em;
+  }
+  h3 {
+    font-size: 1.65em;
+    margin: 0 auto 0px;
+    min-height: 55px;
+    line-height: 1.2em;
+  }
+  i {
+    color: #30739C;
+    margin-bottom: 20px;
+  }
+}
+.featured-wrapper.science {
+  padding: 60px 0;
+  .video-wrapper {
+    .play-button {
+      text-align: center;
+      top: 28%;
+      img {
+        max-width: 80px;
+        padding: 10px;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 4px;
+      }
+    }
+    &:hover {
+      .play-button {
+        display: block;
+        img {
+          background: #1d99de;
+        }
+      }
+    }
+  }
+}
+.science-download-list {
+  text-align: center;
+  ul {
+    li {
+      list-style: none;
+      margin: 20px 0;
+      font-weight: 600;
+      color: $darkblue;
+      i {
+        display: inline-block;
+        margin-right: 10px;
+        font-size: 2em;
+        color: $green;
+        vertical-align: middle;
+      }
+    }
+  }
+}
+.science-participate-section {
+  background: $lightblue;
+  padding: 60px 0;
+  h2 {
+    margin-top: 0;
+    text-align: center;
+  }
+}
