@@ -4,6 +4,4 @@ _site/*
 _site/css/
 node_modules
 Gemfile.lock
-css/*
-css/combined.css
 bower_components/*

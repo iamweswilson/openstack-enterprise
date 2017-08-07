@@ -94,10 +94,10 @@
     - name: More OpenStack Events
       link: //www.openstack.org/community/events/
 
-- id: Blog
-  name: Blog
-  link: /blog/
+- id: Learn
+  name: Learn
+  link: /learn/
 
-- id: "Docs"
-  name: "Docs"
+- id: Docs
+  name: Docs
   link: /docs/

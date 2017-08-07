@@ -49,9 +49,17 @@
                         </li>
                         {% endfor %}
 
-                        <li>
-                            <a href="http://openstack.org/Security/login/" class="sign-in-btn">Sign In</a>
-                        </li>
+                    <li class="join-nav-section">
+                        <a href="#" id="dropdownMenuJoin">Join <i class="fa fa-caret-down"></i></a>
+                        <ul class="dropdown-menu dropdown-hover" role="menu" aria-labelledby="dropdownMenuJoin" style="display: none;">
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="/join/register/?membership-type=foundation">Sign up for Foundation Membership</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="/join/#sponsor">Sponsor the Foundation</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="/foundation">More about the Foundation</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/Security/login/?BackURL=/telecoms-and-nfv/" class="sign-in-btn">Log In</a>
+                    </li>
                     </ul>
             </div>
             <!-- /.navbar-collapse -->
