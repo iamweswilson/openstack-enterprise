@@ -1,1 +1,273 @@
-edge landing
+/* Edge landing */
+.intro-header.edge {
+	background: url(#{$assetsPath}/edge/hero-bg.jpg) no-repeat bottom center;
+    background-size: cover;
+    padding: 60px 0;
+	.intro-message {
+		text-align: left;
+        padding: 0 0 20px;
+		h1 {
+			text-align: left;
+            margin-bottom: 20px;
+            font-size: 2.6em;
+		}
+		p {
+            text-align: left;
+            font-size: 1.4em;
+            font-weight: 300;
+		}
+    }
+    .edge-video {
+        text-align: center;
+    }
+    .edge-video-wrapper {
+        .play-button {
+            width: 20%;
+            display: block;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 20%;
+            margin: auto;
+            opacity: 0.7;
+        }
+        &:hover, &:focus {
+            cursor: pointer;
+            .play-button {
+                opacity: 1;
+            }
+        }
+    }
+    .edge-video-thumb {
+        border: 1px solid white;
+        display: block;
+        max-width: 100%;
+    }
+    .edge-verizon-logo {
+        width: 130px;
+        margin: 15px auto 0;
+        display: block;
+    }
+}
+@media (max-width: 767px) {
+    .intro-header.edge {
+        .edge-video-wrapper {
+            .play-button {
+            }
+        }
+        .edge-verizon-logo {
+            margin-bottom: 30px;
+        }
+    }
+}
+@media (max-width: 480px) {
+    .intro-header.edge {
+        .edge-video-wrapper {
+            .play-button img {
+                width: 90px;
+            }
+        }
+        .edge-verizon-logo {
+            margin-bottom: 30px;
+        }
+    }
+}
+.edge-overview {
+    background: $brightblue;
+    padding: 40px 0;
+    color: white;
+    text-align: center;
+    h2 {
+        color: white;
+        text-align: center;
+        font-size: 2em;
+        margin-top: 0;
+        font-weight: 400;
+    }
+}
+.opendev-promo {
+    background: black url(#{$assetsPath}/edge/earth.png) no-repeat center left;
+    padding: 40px 0;
+    color: white;
+    .opendev-promo-logo {
+        width: 209px;
+    }
+    h2 {
+        font-size: 2em;
+        color: white;
+        margin-bottom: 20px;
+    }
+    p {
+        font-size: 15px;
+    }
+    .cta {
+        background: $pink;
+        color: white;
+        font-style: italic;
+        padding: 10px 60px;
+        display: inline-block;
+        border-radius: 4px;
+        text-align: center;
+        white-space: nowrap;
+        &:hover, &:focus {
+            background: $pinkhover;
+            text-decoration: none;
+        }
+        i {
+            margin-left: 10px;
+        }
+    }
+    .opendev-dates {
+        margin-top: 5px;
+        font-style: italic;
+        font-size: 13px;
+    }
+}
+@media (max-width: 767px) {
+    .opendev-promo {
+        .cta {
+            margin-top: 20px;
+        }
+    }
+}
+.edge-why-openstack {
+    background: $lightblue;
+    padding: 60px 0;
+    .edge-icons-wrapper {
+        text-align: center;
+    }
+    .edge-icons {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}
+.edge-resources {
+    text-align: center;
+    padding: 60px 0;
+    h2 {
+        text-align: center;
+        margin-top: 0;
+    }
+    .resource-title-wrapper {
+        display: flex;
+        align-items: center;
+        margin: 30px 0 10px;
+    }
+    h4.edge-resource-title {
+        text-align: center;
+        text-transform: uppercase;
+        position: relative;
+        display: inline-block;
+        color: $darkblue;
+        font-size: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .line {
+        height: 1px;
+        background-color: #CED9E5;
+        flex-grow: 1;
+    }
+    .video-wrapper {
+        position: relative;
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        .play-button {
+            opacity: 0.7;
+            background: rgba(0, 0, 0, 1);
+            border-radius: 4px;
+            padding: 10px 10px;
+            height: 55%;
+            width: 30%;
+            top: 0%;
+        }
+        &:hover .play-button {
+            opacity: 1;
+            display: block;
+            cursor: pointer;
+        }
+    }
+    .first-col {
+        margin-left: 5%;
+    }
+}
+@media (max-width: 767px) {
+    .edge-resources {
+        .first-col {
+            margin-left: 0;
+        }
+    }
+}
+img.open-edge {
+    width: 320px;
+    max-width: 100%;
+    margin-top: 30px;
+}
+img.etsi {
+    width: 239px;
+    max-width: 100%;
+    margin-top: 30px;
+}
+.edge-working-group {
+    padding: 50px 0;
+    color: white;
+    background: url(#{$assetsPath}/edge/wg-bkgd.jpg) no-repeat center center;
+    h5 {
+        color: white;
+        font-style: italic;
+    }
+    h2 {
+        color: white;
+        margin-top: 10px;
+        font-weight: 400;
+    }
+    .cta {
+        text-align: center;
+        .wg-btn {
+            background: $red;
+            color: white;
+            padding: 8px 50px;
+            border-radius: 4px;
+            margin-top: 25px;
+            display: inline-block;
+            white-space: nowrap;
+            &:hover, &:focus {
+                background: $redhover;
+                text-decoration: none;
+            }
+            i {
+                margin-left: 15px;
+            }
+        }
+    }
+}
+.edge-email-signup {
+    background: $blue;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+    h2 {
+        text-align: center;
+        color: white;
+        margin-bottom: 30px;
+    }
+    .edge-interest-btn {
+        background: transparent;
+        border: 1px solid white;
+        border-radius: 4px;
+        padding: 8px 35px;
+        color: white;
+        display: inline-block;
+        i {
+            margin-left: 10px;
+        }
+        &:hover, &:focus {
+            color: white;
+            text-decoration: none;
+            background: rgba(255,255,255,0.3);
+        }
+    }
+}
+/* End Edge landing */
